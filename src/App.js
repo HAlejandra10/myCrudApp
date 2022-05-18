@@ -4,13 +4,11 @@ import {Route, BrowserRouter as Router} from 'react';
 
 function App() {
   return (
-    <Router>
-    <div className="container">
+   
+    <div className="App">
         Hola mundo!
-        <Route exact path="/" component={Listar}> </Route>
-        <Listar></Listar>
+        {/* <Route exact path="/" component={Listar}> </Route> */}
     </div>
-    </Router>
   );
 }
 
